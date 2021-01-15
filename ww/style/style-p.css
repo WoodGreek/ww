@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.xop-section {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 6% 2%;
+}
+
+.xop-grid {
+	margin: -40px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after, .xop-box:before {
+	content: '';
+	display: table;
+}
+
+.xop-grid li {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 30px;
+}
+/* .xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+} */
+
+.xop-box {
+	width: 120%;
+	height: 120%;
+	position: sticky;
+	cursor: pointer;
+    border-radius: 20px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+.xop-img-1 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/cwclock.png);	
+	background-size: cover;
+}
+
+.xop-img-2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/ctclock.png);
+	background-size: cover;
+}
+
+.xop-img-3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/cardashboard.png);
+	background-size: cover;
+}
+
+.xop-img-4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/box.png);
+	background-size: cover;
+}
+.xop-img-5 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/carhanging.png);
+	background-size: cover;
+}
+.xop-img-6 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/keychain.png);
+	background-size: cover;
+}
+.xop-img-7 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/ccoasters.png);
+	background-size: cover;
+}
+.xop-img-8 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/mholder.png);
+	background-size: cover;
+}
+.xop-img-9 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/cpen.png);
+	background-size: cover;
+}
+.xop-img-10 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/notebook.png);
+	background-size: cover;
+}
+.xop-img-11 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/rphoto.png);
+	background-size: cover;
+}
+.xop-img-12 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/frames.png);
+	background-size: cover;
+}
+.xop-img-13 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/trophy.png);
+	background-size: cover;
+}
+.xop-img-14 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/tabletop.png);
+	background-size: cover;
+}
+.xop-img-15 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(/images/sospecial.png);
+	background-size: cover;
+}
+.xop-img-16 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+	url(images/productdisplay.png);
+	background-size: cover;
+}
+
+.xop-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+
+.xop-info h3{
+	font-family: 'Fredoka One', cursive;
+	font-weight: 150;
+	color: whitesmoke;
+	font-size: 15px;
+	margin: 0 15px;
+	padding: 100px 0 0 0;
+	line-height: 1.2;
+}
